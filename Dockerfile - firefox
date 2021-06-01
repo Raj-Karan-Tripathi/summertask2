@@ -1,0 +1,6 @@
+From centos:8
+
+RUN  yum install firefox -y
+
+
+CMD /usr/bin/firefox
